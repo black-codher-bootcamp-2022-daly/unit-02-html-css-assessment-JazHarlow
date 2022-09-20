@@ -1,0 +1,38 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+/* imported Urbanist font */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+/* imported Oswald font */
+
+
+#class { 
+    font-family: Oswald;
+
+}
+
+/* @keyframes rainbow {
+    0% {background-color: #cc0000;} 
+    20% {background-color: #fb7c05;} 
+    40% {background-color: #FBBC05;} 
+    60% {background-color: #429C0E;}
+    80% {background-color: #3A92EC;}
+    100% {background-color: #770fd8;}
+  } */
+
+  html {
+    background: #0C5770;
+    animation-name:rainbow;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+
+  body {
+    font-family: Oswald;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    transition: all 725ms ease-in-out;
+}
