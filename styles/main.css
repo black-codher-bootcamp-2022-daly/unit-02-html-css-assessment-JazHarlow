@@ -6,6 +6,8 @@ url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
 /* imported Oswald font */
 
 
+
+
 #class { 
     font-family: Oswald;
 
@@ -36,3 +38,27 @@ url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
     line-height: 1.5;
     transition: all 725ms ease-in-out;
 }
+
+/*
+.squarepx {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+
+}
+
+.squareem {
+  height: 5em;
+  width: 5em;
+  background-color: black;
+  
+}
+
+.squarepc {
+  height: 50%;
+  width: 50%;
+  background-color: black;
+  
+}
+
+*/
