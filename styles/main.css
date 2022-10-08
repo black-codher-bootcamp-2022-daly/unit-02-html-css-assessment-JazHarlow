@@ -80,23 +80,21 @@ div {
   font-family: Parisienne;
   text-align: center;
   font-size: 30px;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 .working-history { 
   border: 1px navy solid;
-  text-align: left;
-  align-items: left; 
-  width: 50%;
+  text-align: center;
+  align-items: center; 
   padding: 1em;
 
 }
 
-.current-projects { 
+.current { 
   border: 1px navy solid;
-  text-align: left;
-  align-items: left; 
-  width: 50%;
+  text-align: center;
+  align-items: center; 
   padding: 1em;
   
 
@@ -128,17 +126,22 @@ footer h4 {
 footer ul li {
   display: inline;
   align-items: center;
+
+
 }
 
 a:link {
   text-decoration: none; 
   color: #0C5770;
+
 }
 
 a:visited {
   text-decoration: none;
-  color:#ffffff
+  color:#0a2940
 }
+
+
 
 a:hover {
   text-decoration: underline;
