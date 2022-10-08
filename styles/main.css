@@ -1,13 +1,30 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+@keyframes transitioning {
+  0% {background-color:  #86a0a1;} 
+  25% {background-color: #6cacb1;} 
+  50% {background-color: #0C5770;}
+  75% {background-color: #0a2940;}
+  100% {background-color: #031726;}
+
+}
 
  body {
   font-family: 'Urbanist';
+  padding-right: 50px;
+  padding-left: 50px;
+
+
  }
 
+div {
+  padding: 25px;
+}
 
-  .html {
+.html {
     background: #ffffff;
     text-decoration: none;
   }
@@ -21,27 +38,68 @@ url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
   }
 
-  nav {
+  .navigation {
     font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     color: #0C5770;
-    padding: 10px;
-   
+    padding-bottom: 50px; 
+  
 }
 
   body {
     color: #0C5770;
-    text-align: LEFT;
+    text-align: left;
     font-size: 1.125rem;
     line-height: 1.5;
     transition: all 725ms ease-in-out;
 }
 
-p2 {
+.home {
   text-align: center;
-  padding: 45;
+  font-size: 40px;
+  width: 50%;
+  color:#ffffff;
+  animation-name: transitioning;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+  height: 60px;
+  margin: auto;
+}
+
+.about-me {
+  text-align: center;
+  border: 1px navy solid;
+  align-items: center; 
+  padding: 1em;
+
+}
+
+.quote {
+  font-family: Parisienne;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.working-history { 
+  border: 1px navy solid;
+  text-align: left;
+  align-items: left; 
+  width: 50%;
+  padding: 1em;
+
+}
+
+.current-projects { 
+  border: 1px navy solid;
+  text-align: left;
+  align-items: left; 
+  width: 50%;
+  padding: 1em;
+  
+
 }
 
 footer {
@@ -55,6 +113,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center; 
+  
 }
 
 footer h4 {
@@ -63,7 +122,7 @@ footer h4 {
   font-size: 30px;
   line-height: 25px;
   letter-spacing: 1px;
-  margin: 10px;
+
 }
 
 footer ul li {
@@ -73,6 +132,7 @@ footer ul li {
 
 a:link {
   text-decoration: none; 
+  color: #0C5770;
 }
 
 a:visited {
@@ -93,6 +153,15 @@ a:active {
   list-style-type: none;
 }
 
+.email {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 1.5;
+  margin: auto;
+
+}
 
 /*
 .squarepx {
