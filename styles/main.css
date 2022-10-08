@@ -1,48 +1,39 @@
 @import 
-url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
-/* imported Urbanist font */
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
-/* imported Oswald font */
+url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
 
+ body {
+  font-family: 'Urbanist';
+ }
 
 
-#class { 
-    font-family: Urbanist;
-
-}
-
-/* @keyframes rainbow {
-    0% {background-color: #cc0000;} 
-    20% {background-color: #fb7c05;} 
-    40% {background-color: #FBBC05;} 
-    60% {background-color: #429C0E;}
-    80% {background-color: #3A92EC;}
-    100% {background-color: #770fd8;}
-  } */
-
-  html {
+  .html {
     background: #ffffff;
-    animation-name:rainbow;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
     text-decoration: none;
   }
 
+  header {
+      color: #0C5770;
+      text-align: center;
+      font-size: 80px;
+      line-height: 1;
+      transition: all 725ms ease-in-out;
+
+  }
+
   nav {
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     color: #0C5770;
-    padding: 25px;
+    padding: 10px;
    
 }
 
   body {
-    font-family: Oswald;
     color: #0C5770;
-    text-align: center;
+    text-align: LEFT;
     font-size: 1.125rem;
     line-height: 1.5;
     transition: all 725ms ease-in-out;
@@ -70,7 +61,6 @@ footer h4 {
   display: flex;
   color: white;
   font-size: 30px;
-  font-family: 'Comforter', cursive;
   line-height: 25px;
   letter-spacing: 1px;
   margin: 10px;
@@ -102,6 +92,8 @@ a:active {
 .nobull {
   list-style-type: none;
 }
+
+
 /*
 .squarepx {
   height: 50px;
