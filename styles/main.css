@@ -17,7 +17,6 @@ url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
   padding-right: 50px;
   padding-left: 50px;
 
-
  }
 
 div {
@@ -80,21 +79,23 @@ div {
   font-family: Parisienne;
   text-align: center;
   font-size: 30px;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 .working-history { 
   border: 1px navy solid;
-  text-align: center;
-  align-items: center; 
+  text-align: left;
+  align-items: left; 
+  width: 50%;
   padding: 1em;
 
 }
 
 .current { 
   border: 1px navy solid;
-  text-align: center;
-  align-items: center; 
+  text-align: left;
+  align-items: left; 
+  width: 50%;
   padding: 1em;
   
 
